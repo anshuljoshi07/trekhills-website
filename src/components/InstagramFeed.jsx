@@ -3,12 +3,12 @@ import React from 'react';
 const InstagramFeed = () => {
   // Using some of our high-quality trekking images to simulate a gorgeous Instagram feed
   const posts = [
-    { id: 1, image: '/kedarnath_temple_trek_1777048259511.png', likes: 1245 },
-    { id: 2, image: '/winter_spiti.png', likes: 3012 },
-    { id: 3, image: '/kuari_pass.png', likes: 890 },
-    { id: 4, image: '/bir_billing.png', likes: 2150 },
-    { id: 5, image: '/dayara_bugyal.png', likes: 1432 },
-    { id: 6, image: '/char_dham_yatra.png', likes: 4500 }
+    { id: 1, image: 'kedarnath_temple_trek_1777048259511.png', likes: 1245 },
+    { id: 2, image: 'winter_spiti.png', likes: 3012 },
+    { id: 3, image: 'kuari_pass.png', likes: 890 },
+    { id: 4, image: 'bir_billing.png', likes: 2150 },
+    { id: 5, image: 'dayara_bugyal.png', likes: 1432 },
+    { id: 6, image: 'char_dham_yatra.png', likes: 4500 }
   ];
 
   return (
