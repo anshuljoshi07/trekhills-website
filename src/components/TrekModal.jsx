@@ -48,7 +48,7 @@ const TrekModal = ({ trek, onClose }) => {
         <img src={trek.image} alt={trek.name} className="modal-header-img" />
         
         <div className="modal-body">
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '2rem' }}>
+          <div className="modal-header-info" style={{ marginBottom: '2rem' }}>
             <div>
               <h2 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>{trek.name}</h2>
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '0.5rem' }}>
@@ -60,7 +60,7 @@ const TrekModal = ({ trek, onClose }) => {
                 {trek.altitude && ` • ${trek.altitude}`}
               </p>
             </div>
-            <div style={{ textAlign: 'right' }}>
+            <div className="modal-pricing-info" style={{ textAlign: 'right' }}>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Pricing</p>
               {trek.pricing ? (
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.3rem', alignItems: 'flex-end', marginTop: '0.5rem' }}>
@@ -112,11 +112,11 @@ const TrekModal = ({ trek, onClose }) => {
             <div style={{ background: 'var(--card-bg)', padding: '2rem', borderRadius: '12px', border: '1px solid var(--glass-border)' }}>
               <h4 style={{ marginBottom: '1.5rem', color: 'var(--primary)' }}>Write a Review</h4>
               <form onSubmit={handleReviewSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                <div style={{ display: 'flex', gap: '1rem' }}>
+                <div className="review-form-inputs" style={{ display: 'flex', gap: '1rem' }}>
                   <input type="text" placeholder="Your Name" required value={newReview.name} onChange={(e) => setNewReview({...newReview, name: e.target.value})} style={{ flex: 1, padding: '0.8rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.2)', background: 'transparent', color: 'white' }} />
                   <input type="tel" placeholder="Phone Number" value={newReview.phone} onChange={(e) => setNewReview({...newReview, phone: e.target.value})} style={{ flex: 1, padding: '0.8rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.2)', background: 'transparent', color: 'white' }} />
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                <div className="review-rating-input" style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                   <span style={{ color: 'var(--text-muted)' }}>Rating:</span>
                   <select value={newReview.rating} onChange={(e) => setNewReview({...newReview, rating: Number(e.target.value)})} style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(255,255,255,0.1)', color: 'white', border: 'none' }}>
                     <option value={5}>5 Stars ★★★★★</option>
@@ -133,7 +133,7 @@ const TrekModal = ({ trek, onClose }) => {
           </div>
 
           <div style={{ background: 'rgba(255,255,255,0.03)', padding: '2rem', borderRadius: '20px', border: '1px solid var(--glass-border)' }}>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginBottom: '2rem' }}>
+            <div className="modal-details-grid" style={{ marginBottom: '2rem' }}>
               <div>
                 <h3 style={{ marginBottom: '1rem', color: '#25D366' }}>Inclusions</h3>
                 <ul style={{ color: 'var(--text-muted)', display: 'flex', flexDirection: 'column', gap: '0.5rem', paddingLeft: '1.2rem' }}>
