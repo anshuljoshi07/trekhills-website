@@ -39,7 +39,7 @@ const AboutSection = () => {
 
           <div className="founder-card">
             <div className="founder-img-wrapper">
-              <img src="/founders/trishna.jpg" alt="Trishna Rajkonwar" className="founder-img" />
+              <img src="/about_us_trishna_new.jpg" alt="Trishna Rajkonwar" className="founder-img" />
             </div>
             <div className="founder-info">
               <h3>Trishna Rajkonwar</h3>
