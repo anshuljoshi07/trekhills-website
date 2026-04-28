@@ -14,7 +14,7 @@ const Header = ({ theme, toggleTheme, onOpenPrivacyPolicy, onOpenContact }) => {
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="logo-container">
-        <img src="/trekhills_logo_1777048237733.png" alt="TrekHills" className="logo-img" />
+        <img src="/trekhills_logo_new.png" alt="TrekHills" className="logo-img" style={{ height: '50px' }} />
         <div className="logo-text">TrekHills</div>
       </div>
       <nav style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
