@@ -125,7 +125,7 @@ body {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   /* Added a cool, moody blue/purple tint to the gradient to enhance the epic vibe without altering the original image */
-  background: linear-gradient(to bottom, rgba(15, 23, 42, 0.3) 0%, rgba(10, 11, 16, 0.95) 100%), url('/hero_face_upscaled.png') center/cover no-repeat;
+  background: linear-gradient(to bottom, rgba(15, 23, 42, 0.3) 0%, rgba(10, 11, 16, 0.95) 100%), url('/hero_bg_new.jpg') center/cover no-repeat;
   z-index: -2;
   animation: bgEpicZoom 30s infinite alternate cubic-bezier(0.4, 0, 0.2, 1);
   transform-origin: center bottom;
