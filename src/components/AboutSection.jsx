@@ -11,7 +11,7 @@ const AboutSection = () => {
         <div className="founders-grid">
           <div className="founder-card">
             <div className="founder-img-wrapper">
-              <img src="/founders/rupesh.jpg" alt="Rupesh Raj" className="founder-img" />
+              <img src="founders/rupesh.jpg" alt="Rupesh Raj" className="founder-img" />
             </div>
             <div className="founder-info">
               <h3>Rupesh Raj</h3>
@@ -25,7 +25,7 @@ const AboutSection = () => {
 
           <div className="founder-card">
             <div className="founder-img-wrapper">
-              <img src="/founders/arav.jpg" alt="Arav Michael" className="founder-img" />
+              <img src="founders/arav.jpg" alt="Arav Michael" className="founder-img" />
             </div>
             <div className="founder-info">
               <h3>Arav Michael</h3>
@@ -39,7 +39,7 @@ const AboutSection = () => {
 
           <div className="founder-card">
             <div className="founder-img-wrapper">
-              <img src="/about_us_trishna_new.jpg" alt="Trishna Rajkonwar" className="founder-img" />
+              <img src="about_us_trishna_new.jpg" alt="Trishna Rajkonwar" className="founder-img" />
             </div>
             <div className="founder-info">
               <h3>Trishna Rajkonwar</h3>

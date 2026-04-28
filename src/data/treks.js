@@ -12,7 +12,7 @@ export const treks = [
       "Delhi to Delhi": "₹10,999"
     },
     "note": "Optionals: Helicopter ₹8,500, Khacchar ₹2,000, Hot water ₹50/bucket.",
-    "image": "/kedarnath_temple_trek_1777048259511.png",
+    "image": "kedarnath_temple_trek_1777048259511.png",
     "description": "A spiritual journey to one of the 12 Jyotirlingas, situated at 3,583m amidst the Kedar range.",
     "itinerary": [
       {
@@ -78,7 +78,7 @@ export const treks = [
       "Delhi to Delhi (6D/5N)": "₹14,599"
     },
     "note": "Additional Cost (Optional): Khacchar - ₹3000 approx",
-    "image": "/badrinath_temple_view_1777048282521.png",
+    "image": "badrinath_temple_view_1777048282521.png",
     "description": "Brief Itinerary covering two of the most sacred Dhams in the Himalayas.",
     "itinerary": [
       {
@@ -149,7 +149,7 @@ export const treks = [
       "Fixed Group (Double)": "₹18,999",
       "Personal SUV (4 PAX)": "₹24,500"
     },
-    "image": "/winter_spiti.png",
+    "image": "winter_spiti.png",
     "description": "An adventurous winter expedition to the remote, snow-covered Spiti Valley.",
     "itinerary": [
       {
@@ -230,7 +230,7 @@ export const treks = [
       "triple": "₹6,000",
       "double": "₹6,500"
     },
-    "image": "/chopta_chandrashila_trek_1777048380224.png",
+    "image": "chopta_chandrashila_trek_1777048380224.png",
     "description": "Trek to the highest Shiva temple (Tungnath) and witness a 360-degree Himalayan panorama from the summit.",
     "itinerary": [
       {
@@ -286,7 +286,7 @@ export const treks = [
     "difficulty": "Easy",
     "altitude": "6,726 ft",
     "cost": "₹8,500",
-    "image": "/manali_tour.png",
+    "image": "manali_tour.png",
     "description": "A perfect getaway to the beautiful valleys and snow-capped peaks of Manali.",
     "itinerary": [
       {
@@ -347,7 +347,7 @@ export const treks = [
     "difficulty": "Easy",
     "altitude": "8,790 ft",
     "cost": "₹6,500",
-    "image": "/chopta_chandrashila_trek_1777048380224.png",
+    "image": "chopta_chandrashila_trek_1777048380224.png",
     "description": "A peaceful retreat in the dense forests and meadows of Chopta.",
     "itinerary": [
       {
@@ -403,7 +403,7 @@ export const treks = [
     "difficulty": "Easy",
     "altitude": "5,250 ft",
     "cost": "₹7,200",
-    "image": "/jibhi_retreat.png",
+    "image": "jibhi_retreat.png",
     "description": "Escape to the unexplored, lush green valley of Jibhi in the Tirthan Valley region.",
     "itinerary": [
       {
@@ -459,7 +459,7 @@ export const treks = [
     "difficulty": "Moderate",
     "altitude": "9,711 ft",
     "cost": "₹9,000",
-    "image": "/kasol_kheerganga.png",
+    "image": "kasol_kheerganga.png",
     "description": "Trek through the Parvati Valley and relax in the natural hot springs of Kheerganga.",
     "itinerary": [
       {
@@ -520,7 +520,7 @@ export const treks = [
     "difficulty": "Easy",
     "altitude": "1,962 ft",
     "cost": "₹12,000",
-    "image": "/udaipur_getaway.png",
+    "image": "udaipur_getaway.png",
     "description": "Experience the royal heritage, lakes, and palaces of the 'City of Lakes'.",
     "itinerary": [
       {
@@ -576,7 +576,7 @@ export const treks = [
     "difficulty": "Moderate",
     "altitude": "11,450 ft",
     "cost": "₹5,999",
-    "image": "/kedarnath_temple_trek_1777048259511.png",
+    "image": "kedarnath_temple_trek_1777048259511.png",
     "description": "Trek to the Second Kedar, located in a picturesque meadow surrounded by snow-capped peaks.",
     "itinerary": [
       {
@@ -632,7 +632,7 @@ export const treks = [
     "difficulty": "Easy",
     "altitude": "5,250 ft",
     "cost": "Contact Us",
-    "image": "/jibhi_retreat.png",
+    "image": "jibhi_retreat.png",
     "description": "Group Inclusive Tour to the pristine Tirthan Valley and Jibhi.",
     "itinerary": [
       {
@@ -698,7 +698,7 @@ export const treks = [
       "Haridwar to Haridwar (10D/9N)": "₹23,999"
     },
     "note": "Khacchar: ₹3000/- Approx",
-    "image": "/char_dham_yatra.png",
+    "image": "char_dham_yatra.png",
     "description": "The ultimate spiritual odyssey covering Yamunotri, Gangotri, Kedarnath, and Badrinath.",
     "itinerary": [
       {
@@ -784,7 +784,7 @@ export const treks = [
     "difficulty": "Easy",
     "altitude": "7,000 ft (Starting)",
     "cost": "Contact Us",
-    "image": "/dayara_bugyal.png",
+    "image": "dayara_bugyal.png",
     "description": "Trek to one of the most beautiful high-altitude meadows in India.",
     "itinerary": [
       {
@@ -849,7 +849,7 @@ export const treks = [
       "Joshimath to Joshimath": "₹6,999",
       "Rishikesh to Rishikesh": "₹7,999"
     },
-    "image": "/kuari_pass.png",
+    "image": "kuari_pass.png",
     "description": "The Lord Curzon trail offering unparalleled views of Mt. Nanda Devi.",
     "itinerary": [
       {
@@ -920,7 +920,7 @@ export const treks = [
     "difficulty": "Easy",
     "altitude": "7,874 Ft",
     "cost": "Contact Us",
-    "image": "/bir_billing.png",
+    "image": "bir_billing.png",
     "description": "Experience Tibetan culture and the paragliding capital of India.",
     "itinerary": [
       {
@@ -987,7 +987,7 @@ export const treks = [
       "Delhi to Delhi (Quad)": "₹6,500",
       "Delhi to Delhi (Double)": "₹7,500"
     },
-    "image": "/triund_trek.png",
+    "image": "triund_trek.png",
     "description": "A classic weekend trek offering stunning views of the Dhauladhar range.",
     "itinerary": [
       {
@@ -1048,7 +1048,7 @@ export const treks = [
     "difficulty": "Moderate",
     "altitude": "12,500 ft",
     "cost": "Contact Us",
-    "image": "/kedarkantha_trek.png",
+    "image": "kedarkantha_trek.png",
     "description": "One of the most popular winter treks in India, known for its beautiful summit climb.",
     "itinerary": [
       {
